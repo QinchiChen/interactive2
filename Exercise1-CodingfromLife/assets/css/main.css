@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.ball {
+	width: 260px;
+	height: 260px;
+	background: radial-gradient(circle at 100px 100px, white, gray);
+	border-radius: 130px;
+	top: 160px;
+	left: 380px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 2px 8px 22px #568534;
+}
+
+
+.squash2 {
+	width: 60px;
+	height: 60px;
+	background: radial-gradient(circle at 30px 30px, #FDBD00, orange);
+	border-radius: 30px;
+	top: 340px;
+	left: 670px;
+	z-index: 1;
+	position: absolute;
+}
+
+.squash{
+	width: 110px;
+	height: 110px;
+	background: radial-gradient(circle at 50px 50px, #FDBD00, orange);
+	top: 360px;
+	left: 660px;
+	border-radius: 55px;
+	z-index: 1;
+	position: absolute;
+}
+
+.mat{ 
+	left: 100px;
+	top: 200px;
+	border-bottom: 300px solid #85C734;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 700px;
+	z-index: 0;
+	position: absolute;
+}
+
+.vase{
+	width: 110px;
+	height: 200px;
+	left: 170px;
+	top: 190px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: gray;
+	z-index:2;
+	position: absolute;
+	opacity: 0.4;
+
+}
+
+.stem1{
+	width: 10px;
+	height: 250px;
+	left: 190px;
+	top: 130px;
+	background: green;
+	border-radius: 3px;
+	position: absolute;
+}
+
+
+
+.stem2{
+	width: 10px;
+	height: 290px;
+	left: 210px;
+	top: 90px;
+	background: green;
+	border-radius: 3px;
+	position: absolute;
+}
+
+.stem3{
+	width: 10px;
+	height: 230px;
+	left: 215px;
+	top: 150px;
+	background: green;
+	border-radius: 3px;
+	transform: rotate(7deg);
+	position: absolute;
+}
+
+.stem4{
+	width: 10px;
+	height: 260px;
+	left: 250px;
+	top: 120px;
+	background: green;
+	border-radius: 3px;
+	position: absolute;
+}
+.water{
+	width: 100px;
+	height: 100px;
+	left: 175px;
+	top: 285px;
+	border-radius:30px;
+	background: #92D9FA;
+	z-index:1;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.flower1{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	left: 185px;
+	top: 110px;
+	background: purple;
+	position: absolute;
+}
+
+.flower2{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	left: 205px;
+	top: 70px;
+	background: purple;
+	position: absolute;
+}
+
+.flower3{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	left: 225px;
+	top: 130px;
+	background: purple;
+	position: absolute;
+}
+
+.flower4{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	left: 245px;
+	top: 100px;
+	background: purple;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
