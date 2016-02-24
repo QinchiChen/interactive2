@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #92D9FA;
+}
+
+h1, h3, li{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
