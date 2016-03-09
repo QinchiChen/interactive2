@@ -21,7 +21,7 @@ line {
   left: 20px;
   top: 120px;
   position: relative;
-  background: blue;
+  background: transparent;
   z-index: 1;
 }
 
@@ -31,7 +31,7 @@ line {
   left: 140px;
   top: -100px;
   position: relative;
-  background: blue;
+  background: transparent;
 }
 
 .c{
@@ -40,7 +40,7 @@ line {
   left: 260px;
   top: -220px;
   position: relative;
-  background: blue;
+  background: transparent;
 }
 
 .d{
@@ -49,7 +49,7 @@ line {
   left: 380px;
   top: 20px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .e{
@@ -58,7 +58,7 @@ line {
   left: 500px;
   top: 120px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .f{
@@ -67,7 +67,7 @@ line {
   left: 620px;
   top: 120px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .g{
@@ -76,7 +76,7 @@ line {
   left: 740px;
   top: 120px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .h{
@@ -85,7 +85,7 @@ line {
   left: 860px;
   top: 20px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .i{
@@ -94,7 +94,7 @@ line {
   left: 980px;
   top: 120px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .j{
@@ -103,7 +103,7 @@ line {
   left: 20px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .k{
@@ -112,7 +112,7 @@ line {
   left: 140px;
   top: 380px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .l{
@@ -121,7 +121,7 @@ line {
   left: 260px;
   top: 380px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .m{
@@ -130,7 +130,7 @@ line {
   left: 380px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .n{
@@ -139,7 +139,7 @@ line {
   left: 500px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .o{
@@ -148,7 +148,7 @@ line {
   left: 620px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .p{
@@ -157,7 +157,7 @@ line {
   left: 740px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .q{
@@ -166,7 +166,7 @@ line {
   left: 860px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .r{
@@ -175,7 +175,7 @@ line {
   left: 980px;
   top: 480px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .s{
@@ -184,7 +184,7 @@ line {
   left: 20px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .t{
@@ -193,7 +193,7 @@ line {
   left: 140px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .u{
@@ -202,7 +202,7 @@ line {
   left: 260px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .v{
@@ -211,7 +211,7 @@ line {
   left: 380px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .w{
@@ -220,7 +220,7 @@ line {
   left: 500px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .x{
@@ -229,7 +229,7 @@ line {
   left: 620px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .y{
@@ -238,7 +238,7 @@ line {
   left: 740px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .z{
@@ -247,7 +247,7 @@ line {
   left: 860px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberZero{
@@ -256,7 +256,7 @@ line {
   left: 980px;
   top: 780px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberOne{
@@ -265,7 +265,7 @@ line {
   left: 20px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberTwo{
@@ -274,7 +274,7 @@ line {
   left: 140px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberThree{
@@ -283,7 +283,7 @@ line {
   left: 260px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberFour{
@@ -292,7 +292,7 @@ line {
   left: 380px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberFive{
@@ -301,7 +301,7 @@ line {
   left: 500px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberSix{
@@ -310,7 +310,7 @@ line {
   left: 620px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberSeven{
@@ -319,7 +319,7 @@ line {
   left: 740px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberEight{
@@ -328,7 +328,7 @@ line {
   left: 860px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
 
 .NumberNine{
@@ -337,7 +337,97 @@ line {
   left: 980px;
   top: 1080px;
   position: absolute;
-  background: blue;
+  background: transparent;
 }
+
+.Periods{
+  width: 10px;
+  height: 10px;
+  left: 70px;
+  top: 1380px;
+  position: absolute;
+  background: transparent;
+}
+
+.QuestionMark{
+  width: 110px;
+  height: 220px;
+  left: 240px;
+  top: 1280px;
+  position: absolute;
+  background: transparent;
+}
+.ExclamationMark{
+  width: 110px;
+  height: 120px;
+  left: 360px;
+  top: 1280px;
+  position: absolute;
+  background: transparent;
+}
+.Comma{
+  width: 15px;
+  height: 20px;
+  left: 480px;
+  top: 1380px;
+  position: absolute;
+  background: transparent;
+}
+.CommaTail{
+  width: 15px;
+  height: 20px;
+  left: 480px;
+  top: 1388px;
+  position: absolute;
+  background: transparent;
+}
+
+.FrontQuote{
+  width: 110px;
+  height: 120px;
+  left: 500px;
+  top: 1280px;
+  position: absolute;
+  background: transparent;
+}
+.BackQuote{
+  width: 110px;
+  height: 120px;
+  left: 620px;
+  top: 1280px;
+  position: absolute;
+  background: transparent;
+}
+
+/*----------------------------Hexagon Begin-----------------------*/
+.hexagon {
+  position: relative;
+  width: 10px; 
+  height: 5.77px;
+  background-color: orange;
+  margin: 2.89px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 2.89px solid orange;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 2.89px solid orange;
+}
+
+/*----------------------Hexagon End-------------------------------*/
 
 
