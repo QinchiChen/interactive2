@@ -1,0 +1,597 @@
+
+body{
+  background: #482D21; 
+  cursor: url('../image/beer2.png') 50 50, pointer;
+}/*Moroco Brown*/
+
+line {
+  stroke:#eeda49;
+  stroke-width:5;
+  
+}
+
+.Container{
+  width: 1010px;
+  background: transparent;
+  margin: auto;
+  position: relative;
+  
+}
+
+
+
+
+
+
+
+/*----------------------------positions start-----------------------*/
+/*----large Hexagon-------------------------*/
+.bee{
+  left: 415px;
+  top: 55px;
+  position: absolute;
+  z-index: 2;
+  
+}
+
+.hexOne{
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  
+}
+.hexTwo{
+  left: 193.2px;
+  top: 10px;
+  position: absolute;
+  
+}
+.hexThree{
+  left: 376.4px;
+  top: 10px;
+  position: absolute;
+  z-index: 1;
+  
+}
+.hexFour{
+  left: 101.6px;
+  top: 168.6px;
+  position: absolute;
+  
+}
+
+.hexSix{
+  left: 468px;
+  top: 168.6px;
+  position: absolute;
+
+}
+.hexSeven{
+  left: 651.2px;
+  top: 168.6px;
+  position: absolute;
+}
+.hexEight{
+  left: 742.8px;
+  top: 10px;
+  position: absolute;
+}
+.hexNine{
+  left: 376.4px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexTen{
+  left: 559.6px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexEleven{
+  left: 834.4px;
+  top: 168.6px;
+  position: absolute;
+}
+.hex22{
+  left: 170px;
+  top: 1020px;
+  position: absolute;
+}
+.hex24{
+  left: 770px;
+  top: 1176px;
+  position: absolute;
+}/*Under .hex23*/
+.hex25{
+  left: 856.6px;
+  top: 1337px;
+  position: absolute;
+}/*Under .hex24*/
+.hex26{
+  left: 353.2px;
+  top: 1020px;
+  position: absolute;
+}/*at right side of .hex25*/
+.hex27{
+  left: 261.6px;
+  top: 1178.6px;
+  position: absolute;
+}/*under .hex25 and .hex26*/
+.hex28{
+  left: 78.4px;
+  top: 1178.6px;
+  position: absolute;
+}/*under .hex25 and .hex26*/
+.hex29{
+  left: -10px;
+  top: 1340px;
+  position: absolute;
+}/*bottem left*/
+/*----samll Hexagon-------------------------*/
+.hexTwelve{
+  left: 10px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexThirteen{
+  left: 371.4px;
+  top: 511.5px;
+  position: absolute;
+}
+.hexFourteen{
+  left: 468px;
+  top: 511.5px;
+  position: absolute;
+}
+
+.hexFifteen{
+  left: 193.2px;
+  top: 352.2px;
+  position: absolute;
+}
+
+.hexSixteen{
+  left: 651.2px;
+  top: 511.5px;
+  position: absolute;
+}
+
+.hexSeventeen{
+  left: 750px;
+  top: 685px;
+  position: absolute;
+}/*----between "get" and "can"------*/
+
+.hexEighteen{
+  left: 968px;
+  top: 327px;
+  position: absolute;
+}/*----far right, byside with big------*/
+
+.hexNineteen{
+  left: -35px;
+  top: 487px;
+  position: absolute;
+}/*----far left, byside with big------*/
+
+.hexTwenty{
+  left: 218px;
+  top: 856px;
+  position: absolute;
+}/*----Under "Never"------*/
+
+.hex21{
+  left: 167.2px;
+  top: 936px;
+  position: absolute;
+}/*----Under .HexTwenty------*/
+
+.hex23{
+  left: 900px;
+  top: 1116px;
+  position: absolute;
+}/*----Under "honey"------*/
+
+
+/*----you--------------------------*/
+.y{
+  left: 310.1px;
+  top: 587.5px;
+  position: absolute;
+}
+.o{
+  left: 410.1px;
+  top: 587.5px;
+  position: absolute;
+}
+.u{
+  left: 510.1px;
+  top: 587.5px;
+  position: absolute;
+}
+
+/*-----Can------------------------*/
+.c{
+  left: 690px;
+  top: 587.5px;
+  position: absolute;
+}
+.a{
+  left: 790px;
+  top: 587.5px;
+  position: absolute;
+}
+.n{
+  left: 890px;
+  top: 587.5px;
+  position: absolute;
+}
+
+/*-----never-------------------*/
+.n2{
+  left: 55.6px;
+  top: 761.5px;
+  position: absolute;
+}
+.e{
+  left: 157.2px;
+  top: 761.5px;
+  position: absolute;
+}
+.v{
+  left: 258.8px;
+  top: 761.5px;
+  position: absolute;
+}
+.e2{
+  left: 360.4px;
+  top: 761.5px;
+  position: absolute;
+}
+.r{
+  left: 462px;
+  top: 761.5px;
+  position: absolute;
+}
+/*-----get-------------------*/
+.g{
+  left: 690px;
+  top: 761.5px;
+  position: absolute;
+}
+.e3{
+  left: 790px;
+  top: 761.5px;
+  position: absolute;
+}
+.t{
+  left: 890px;
+  top: 761.5px;
+  position: absolute;
+}
+/*-----honey--------------*/
+.h{
+  left: 540px;
+  top: 836px;
+  position: absolute;
+}
+.o2{
+  left: 640px;
+  top: 936px;
+  position: absolute;
+}
+.n3{
+  left: 740px;
+  top: 936px;
+  position: absolute;
+}
+.e4{
+  left: 840px;
+  top: 936px;
+  position: absolute;
+}
+.y2{
+  left: 940px;
+  top: 936px;
+  position: absolute;
+}
+
+
+/*----------------------------positions end-----------------------*/
+
+/*----------------------------Web Spinning Animation begain--------------------*/
+
+i{ 
+  display: block; 
+  margin: 50px auto; 
+  position: absolute; 
+  width: 173.2px; 
+  height: 100px; 
+  background: #c87e00; 
+  font: bold 100px/100px helvetica, sans-serif; 
+  text-align: center; 
+  color: #eeda49;  
+  -webkit-transition: -webkit-transform .3s; 
+}
+i:before{ 
+  content: ""; 
+  position: absolute; 
+  bottom: 100%; 
+  left: 0; 
+  border-bottom: 50px solid #c87e00; 
+  border-left: 86.6px solid transparent; 
+  border-right: 86.6px solid transparent; 
+}
+i:after{ 
+  content: ""; 
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  border-top: 50px solid #c87e00; 
+  border-left: 86.6px solid transparent; 
+  border-right: 86.6px solid transparent; 
+}
+
+i:hover{ 
+  color: #c87e00; 
+  background: #eeda49; 
+  -webkit-transform: rotate(360deg) scale(0.5); 
+}
+i:hover:before{ border-bottom-color: #eeda49; }
+i:hover:after{ border-top-color: #eeda49; }
+
+
+/*----------------------------Animation begain--------------------*/
+.bee:hover{
+  left: 420px;
+  top: 45px;
+}
+
+
+
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+}
+
+
+
+/**/
+.hexagonBigSandstorm:hover{
+    background-color: #482D21;
+  } 
+.hexagonBigSandstorm:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigSandstorm:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonBigGoldTips:hover{
+    background-color: #482D21;
+  }  
+.hexagonBigGoldTips:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigGoldTips:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonBigPariteGold:hover{
+    background-color: #482D21;
+  }  
+.hexagonBigPariteGold:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigPariteGold:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonSmallPariteGold:hover{
+    background-color: #482D21;
+  }  
+.hexagonSmallPariteGold:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonSmallPariteGold:hover:after{
+  border-top-color: #482D21;
+}
+
+
+
+
+
+.y:hover line{
+  stroke:#482D21;
+} 
+.o:hover line{
+  stroke:#482D21;
+} 
+.u:hover line{
+  stroke:#482D21;
+} 
+
+
+.c:hover line{
+  stroke:#482D21;
+} 
+.a:hover line{
+  stroke:#482D21;
+} 
+.n:hover line{
+  stroke:#482D21;
+} 
+
+
+.n2:hover line{
+  stroke:#482D21;
+} 
+.e:hover line{
+  stroke:#482D21;
+} 
+.v:hover line{
+  stroke:#482D21;
+} 
+.e2:hover line{
+  stroke:#482D21;
+} 
+.r:hover line{
+  stroke:#482D21;
+} 
+
+
+.g:hover line{
+  stroke:#482D21;
+} 
+.e3:hover line{
+  stroke:#482D21;
+} 
+.t:hover line{
+  stroke:#482D21;
+} 
+
+.h:hover line{
+  stroke:#482D21;
+} 
+.o2:hover line{
+  stroke:#482D21;
+} 
+.n3:hover line{
+  stroke:#482D21;
+} 
+.e4:hover line{
+  stroke:#482D21;
+} 
+.y2:hover line{
+  stroke:#482D21;
+} 
+
+/*----------------------------Animation End--------------------*/
+
+
+
+
+
+
+/*----------------------------Hexagon Begin---------------------------------*/
+/*---<<<<<<---Big Sand Storm-----*/
+.hexagonBigSandstorm {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #eeda49;
+  margin: 50px 0;
+}
+.hexagonBigSandstorm:before,
+.hexagonBigSandstorm:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigSandstorm:before {
+  bottom: 100%;
+  border-bottom: 50px solid #eeda49;
+}
+.hexagonBigSandstorm:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #eeda49;
+}
+/*---Big Sand Storm-->>>>-------*/
+
+
+/*---<<<<<<---Big Gold Tips-----*/
+.hexagonBigGoldTips {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #deb117;
+  margin: 50px 0;
+}
+.hexagonBigGoldTips:before,
+.hexagonBigGoldTips:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigGoldTips:before {
+  bottom: 100%;
+  border-bottom: 50px solid #deb117;
+}
+.hexagonBigGoldTips:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #deb117;
+}
+/*---Big Gold Tips-->>>>-------*/
+
+/*---<<<<<<---Big Parite Gold-----*/
+.hexagonBigPariteGold {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #c87e00;
+  margin: 50px 0;
+}
+.hexagonBigPariteGold:before,
+.hexagonBigPariteGold:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigPariteGold:before {
+  bottom: 100%;
+  border-bottom: 50px solid #c87e00;
+}
+.hexagonBigPariteGold:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #c87e00;
+}
+/*---Big Parite Gold-->>>>-------*/
+
+
+/*---<<<<<<---Small Parite Gold-----*/
+.hexagonSmallPariteGold {
+  position: relative;
+  width: 86.6px; 
+  height: 50.00px;
+  background-color: #c87e00;
+  margin: 25.00px 0;
+}
+.hexagonSmallPariteGold:before,
+.hexagonSmallPariteGold:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 43.3px solid transparent;
+  border-right: 43.3px solid transparent;
+}
+.hexagonSmallPariteGold:before {
+  bottom: 100%;
+  border-bottom: 25.00px solid #c87e00;
+}
+.hexagonSmallPariteGold:after {
+  top: 100%;
+  width: 0;
+  border-top: 25.00px solid #c87e00;
+}
+/*---Smal Parite Gold-->>>>-------*/
+/*----------------------Hexagon End-----------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------GamePage-------------------------------*/
+
+
+

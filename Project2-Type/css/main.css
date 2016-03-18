@@ -1,341 +1,498 @@
 
-body{background: gray;
+body{
+  background: #482D21;
+  cursor: url('../image/beer2.png') 50 50, pointer;
 }
 
 line {
-  stroke:orange;
+  stroke:#eeda49;
   stroke-width:5;
+  
 }
 
-.NumberTen{
-  width: 1200px;
-  height: 3000px;
+
+
+/*----------------------------Web Spinning Animation begain--------------------*/
+
+i{ 
+  display: block; 
+  margin: 50px auto; 
+  position: absolute; 
+  width: 173.2px; 
+  height: 100px; 
+  background: #c87e00; 
+  font: bold 100px/100px helvetica, sans-serif; 
+  text-align: center; 
+  color: #eeda49;  
+  -webkit-transition: -webkit-transform .3s; 
+}
+i:before{ 
+  content: ""; 
+  position: absolute; 
+  bottom: 100%; 
+  left: 0; 
+  border-bottom: 50px solid #c87e00; 
+  border-left: 86.6px solid transparent; 
+  border-right: 86.6px solid transparent; 
+}
+i:after{ 
+  content: ""; 
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  border-top: 50px solid #c87e00; 
+  border-left: 86.6px solid transparent; 
+  border-right: 86.6px solid transparent; 
+}
+
+i:hover{ 
+  color: #c87e00; 
+  background: #eeda49; 
+  -webkit-transform: rotate(360deg) scale(0.5); 
+}
+i:hover:before{ border-bottom-color: #eeda49; }
+i:hover:after{ border-top-color: #eeda49; }
+
+
+
+
+/*---------------------------positions------------------------------*/
+
+
+.Container{
+  width: 1010px;
   background: transparent;
   margin: auto;
-  z-index: 0;
+  position: relative;
+  
 }
 
-.a{
-  width: 110px;
-  height: 120px;
-  left: 20px;
-  top: 120px;
-  position: relative;
-  background: transparent;
-  z-index: 1;
+.hexOne{
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  
 }
+.hexTwo{
+  left: 193.2px;
+  top: 10px;
+  position: absolute;
+  
+}
+.hexThree{
+  left: 376.4px;
+  top: 10px;
+  position: absolute;
+  z-index: 1;
+  
+}
+.hexFour{
+  left: 101.6px;
+  top: 168.6px;
+  position: absolute;
+  
+}
+
+.hexSix{
+  left: 468px;
+  top: 168.6px;
+  position: absolute;
+
+}
+.hexSeven{
+  left: 651.2px;
+  top: 168.6px;
+  position: absolute;
+}
+.hexEight{
+  left: 742.8px;
+  top: 10px;
+  position: absolute;
+}
+.hexNine{
+  left: 376.4px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexTen{
+  left: 559.6px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexEleven{
+  left: 834.4px;
+  top: 168.6px;
+  position: absolute;
+}
+.hex22{
+  left: 530px;
+  top: 1560px;
+  position: absolute;
+}
+.hex24{
+  left: 440px;
+  top: 1720px;
+  position: absolute;
+}
+.hex25{
+  left: 255px;
+  top: 1720px;
+  position: absolute;
+}
+.hex26{
+  left: 625px;
+  top: 1720px;
+  position: absolute;
+}
+.hex29{
+  left: 165px;
+  top: 1882px;
+  position: absolute;
+}
+
+/*----samll Hexagon-------------------------*/
+.hexTwelve{
+  left: 10px;
+  top: 327.2px;
+  position: absolute;
+}
+.hexThirteen{
+  left: 371.4px;
+  top: 511.5px;
+  position: absolute;
+}
+.hexFourteen{
+  left: 468px;
+  top: 511.5px;
+  position: absolute;
+}
+
+.hexFifteen{
+  left: 193.2px;
+  top: 352.2px;
+  position: absolute;
+}
+
+.hexSixteen{
+  left: 651.2px;
+  top: 511.5px;
+  position: absolute;
+}
+
+.hexEighteen{
+  left: 968px;
+  top: 327px;
+  position: absolute;
+}/*----far right, byside with big------*/
+
+.hexNineteen{
+  left: -35px;
+  top: 487px;
+  position: absolute;
+}/*----far left, byside with big------*/
+
+
+.hexTwenty{
+  left: 120px;
+  top: 873px;
+  position: absolute;
+}/*----by "g" and "k"------*/
+
+.hex21{
+  left: 120px;
+  top: 1048px;
+  position: absolute;
+}/*s z u*/
+
+.hex23{
+  left: 528px;
+  top: 1475px;
+  position: absolute;
+}
+
+
+.a{  
+ 
+  left: 211px;
+  top: 588px;
+  position: absolute;
+}
+
 
 .b{
-  width: 110px;
-  height: 220px;
-  left: 140px;
-  top: -100px;
-  position: relative;
-  background: transparent;
+  
+  left: 311px;
+  top: 488px;
+  position: absolute;
 }
 
 .c{
-  width: 110px;
-  height: 120px;
-  left: 260px;
-  top: -220px;
-  position: relative;
-  background: transparent;
+ 
+  left: 411px;
+  top: 588px;
+  position: absolute;
 }
 
 .d{
-  width: 110px;
-  height: 220px;
-  left: 380px;
-  top: 20px;
+  
+  left: 511px;
+  top: 488px;
   position: absolute;
   background: transparent;
 }
 
 .e{
-  width: 110px;
-  height: 120px;
-  left: 500px;
-  top: 120px;
+  
+  left: 611px;
+  top: 588px;
   position: absolute;
   background: transparent;
 }
 
 .f{
-  width: 110px;
-  height: 220px;
-  left: 620px;
-  top: 120px;
+  
+  left: 711px;
+  top: 588px;
   position: absolute;
   background: transparent;
 }
 
 .g{
-  width: 110px;
-  height: 220px;
-  left: 740px;
-  top: 120px;
+  
+  left: 61px;
+  top: 675px;
   position: absolute;
   background: transparent;
 }
 
 .h{
-  width: 110px;
-  height: 220px;
-  left: 860px;
-  top: 20px;
+  
+  left: 161px;
+  top: 575px;
   position: absolute;
   background: transparent;
 }
 
 .i{
-  width: 110px;
-  height: 120px;
-  left: 980px;
-  top: 120px;
+  
+  left: 361px;
+  top: 675px;
   position: absolute;
   background: transparent;
 }
 
 .j{
-  width: 110px;
-  height: 220px;
-  left: 20px;
-  top: 480px;
+  
+  left: 458px;
+  top: 675px;
   position: absolute;
   background: transparent;
 }
 
 .k{
-  width: 110px;
-  height: 220px;
-  left: 140px;
-  top: 380px;
+  
+  left: 11px;
+  top: 763px;
   position: absolute;
   background: transparent;
 }
 
 .l{
-  width: 110px;
-  height: 220px;
-  left: 260px;
-  top: 380px;
+ 
+  left: 166px;
+  top: 763px;
   position: absolute;
   background: transparent;
 }
 
 .m{
-  width: 110px;
-  height: 120px;
-  left: 380px;
-  top: 480px;
+  
+  left: 413px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .n{
-  width: 110px;
-  height: 120px;
-  left: 500px;
-  top: 480px;
+  
+  left: 513px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .o{
-  width: 110px;
-  height: 120px;
-  left: 620px;
-  top: 480px;
+  
+  left: 613px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .p{
-  width: 110px;
-  height: 220px;
-  left: 740px;
-  top: 480px;
+  
+  left: 713px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .q{
-  width: 110px;
-  height: 220px;
-  left: 860px;
-  top: 480px;
+  
+  left: 813px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .r{
-  width: 110px;
-  height: 120px;
-  left: 980px;
-  top: 480px;
+  
+  left: 913px;
+  top: 866px;
   position: absolute;
   background: transparent;
 }
 
 .s{
-  width: 110px;
-  height: 120px;
-  left: 20px;
-  top: 780px;
+  
+  left: 158px;
+  top: 950px;
   position: absolute;
   background: transparent;
 }
 
 .t{
-  width: 110px;
-  height: 120px;
-  left: 140px;
-  top: 780px;
+  
+  left: 260px;
+  top: 950px;
   position: absolute;
   background: transparent;
 }
 
 .u{
-  width: 110px;
-  height: 120px;
-  left: 260px;
-  top: 780px;
+  
+  left: 213px;
+  top: 1038px;
   position: absolute;
   background: transparent;
 }
 
 .v{
-  width: 110px;
-  height: 120px;
-  left: 380px;
-  top: 780px;
+  
+  left: 313px;
+  top: 1038px;
   position: absolute;
   background: transparent;
 }
 
 .w{
-  width: 110px;
-  height: 120px;
-  left: 500px;
-  top: 780px;
+  
+  left: 413px;
+  top: 1038px;
   position: absolute;
   background: transparent;
 }
 
 .x{
-  width: 110px;
-  height: 120px;
-  left: 620px;
-  top: 780px;
+  
+  left: 513px;
+  top: 1038px;
   position: absolute;
   background: transparent;
 }
 
 .y{
-  width: 110px;
-  height: 220px;
-  left: 740px;
-  top: 780px;
+  
+  left: 613px;
+  top: 1038px;
   position: absolute;
   background: transparent;
 }
 
 .z{
-  width: 110px;
-  height: 120px;
-  left: 860px;
-  top: 780px;
+  
+  left: 161px;
+  top: 1125px;
   position: absolute;
   background: transparent;
 }
 
 .NumberZero{
-  width: 110px;
-  height: 120px;
-  left: 980px;
-  top: 780px;
+  
+  left: 110px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberOne{
-  width: 110px;
-  height: 120px;
-  left: 20px;
-  top: 1080px;
+  
+  left: 210px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberTwo{
-  width: 110px;
-  height: 120px;
-  left: 140px;
-  top: 1080px;
+  
+  left: 563px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberThree{
-  width: 110px;
-  height: 120px;
-  left: 260px;
-  top: 1080px;
+  
+  left: 663px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberFour{
-  width: 110px;
-  height: 120px;
-  left: 380px;
-  top: 1080px;
+  
+  left: 763px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberFive{
-  width: 110px;
-  height: 120px;
-  left: 500px;
-  top: 1080px;
+  
+  left: 863px;
+  top: 1210px;
   position: absolute;
   background: transparent;
 }
 
 .NumberSix{
-  width: 110px;
-  height: 120px;
-  left: 620px;
-  top: 1080px;
+  
+  left: 513px;
+  top: 1298px;
   position: absolute;
   background: transparent;
 }
 
 .NumberSeven{
-  width: 110px;
-  height: 120px;
-  left: 740px;
-  top: 1080px;
+ 
+  left: 613px;
+  top: 1298px;
   position: absolute;
   background: transparent;
 }
 
 .NumberEight{
-  width: 110px;
-  height: 120px;
-  left: 860px;
-  top: 1080px;
+  
+  left: 713px;
+  top: 1298px;
   position: absolute;
   background: transparent;
 }
 
 .NumberNine{
-  width: 110px;
-  height: 120px;
-  left: 980px;
-  top: 1080px;
+  
+  left: 913px;
+  top: 1298px;
   position: absolute;
   background: transparent;
 }
@@ -343,8 +500,8 @@ line {
 .Periods{
   width: 10px;
   height: 10px;
-  left: 70px;
-  top: 1380px;
+  left: 211px;
+  top: 1525px;
   position: absolute;
   background: transparent;
 }
@@ -352,59 +509,279 @@ line {
 .QuestionMark{
   width: 110px;
   height: 220px;
-  left: 240px;
-  top: 1280px;
+  left: 463px;
+  top: 1385px;
   position: absolute;
   background: transparent;
+}
+.QuestionMarkDot{
+  
+  left: 511px;
+  top: 1525px;
+  position: absolute;
+  
 }
 .ExclamationMark{
   width: 110px;
   height: 120px;
-  left: 360px;
-  top: 1280px;
+  left: 363px;
+  top: 1385px;
   position: absolute;
   background: transparent;
+}
+.ExclamationMarkDot{
+ 
+  left: 411px;
+  top: 1525px;
+  position: absolute;
+ 
 }
 .Comma{
   width: 15px;
   height: 20px;
-  left: 480px;
-  top: 1380px;
+  left: 311px;
+  top: 1525px;
   position: absolute;
   background: transparent;
 }
 .CommaTail{
   width: 15px;
   height: 20px;
-  left: 480px;
-  top: 1388px;
+  left: 311px;
+  top: 1532px;
   position: absolute;
   background: transparent;
 }
 
-.FrontQuote{
-  width: 110px;
-  height: 120px;
-  left: 500px;
-  top: 1280px;
+.FrontQuote1{
+  left: 593px;
+  top: 1415px;
   position: absolute;
   background: transparent;
 }
-.BackQuote{
-  width: 110px;
-  height: 120px;
-  left: 620px;
-  top: 1280px;
+.FrontQuote2{
+  left: 608px;
+  top: 1415px;
   position: absolute;
   background: transparent;
+}
+.FrontQuote1Tail{
+  left: 589px;
+  top: 1420px;
+  position: absolute;
+  background: transparent;
+}
+.FrontQuote2Tail{
+  left: 604px;
+  top: 1420px;
+  position: absolute;
+  background: transparent;
+}
+.BackQuote1{
+  left: 640px;
+  top: 1415px;
+  position: absolute;
+  background: transparent;
+}
+.BackQuote2{
+  left: 655px;
+  top: 1415px;
+  position: absolute;
+  background: transparent;
+}
+.BackQuote1Tail{
+  left: 640px;
+  top: 1420px;
+  position: absolute;
+  background: transparent;
+}
+.BackQuote2Tail{
+  left: 655px;
+  top: 1420px;
+  position: absolute;
+  background: transparent;
+}
+/*---------------------------animation by myself------------------------------*/
+/**/
+.hexagonBigSandstorm:hover{
+    background-color: #482D21;
+  } 
+.hexagonBigSandstorm:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigSandstorm:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonBigGoldTips:hover{
+    background-color: #482D21;
+  }  
+.hexagonBigGoldTips:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigGoldTips:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonBigPariteGold:hover{
+    background-color: #482D21;
+  }  
+.hexagonBigPariteGold:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonBigPariteGold:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+.hexagonSmallPariteGold:hover{
+    background-color: #482D21;
+  }  
+.hexagonSmallPariteGold:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagonSmallPariteGold:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+/**/
+.hexagon:hover{
+    background-color: #482D21;
+  }  
+.hexagon:hover:before{
+  border-bottom-color: #482D21;
+}
+.hexagon:hover:after{
+  border-top-color: #482D21;
+}
+/**/
+
+
+
+
+
+.a:hover line{
+  stroke:#482D21;
+} 
+.b:hover line {
+  stroke:#482D21;
+}
+.c:hover line{
+  stroke:#482D21;
+}
+.d:hover line{
+  stroke:#482D21;
+}
+.e:hover line{
+  stroke:#482D21;
+}
+.f:hover line{
+  stroke:#482D21;
+} 
+.g:hover line{
+  stroke:#482D21;
+} 
+.h:hover line{
+  stroke:#482D21;
+} 
+.i:hover line{
+  stroke:#482D21;
+} 
+.j:hover line{
+  stroke:#482D21;
+} 
+.k:hover line{
+  stroke:#482D21;
+} 
+.l:hover line{
+  stroke:#482D21;
+} 
+.m:hover line{
+  stroke:#482D21;
+} 
+.n:hover line{
+  stroke:#482D21;
+} 
+.o:hover line{
+  stroke:#482D21;
+} 
+.p:hover line{
+  stroke:#482D21;
+} 
+.q:hover line{
+  stroke:#482D21;
+} 
+.r:hover line{
+  stroke:#482D21;
+} 
+.s:hover line{
+  stroke:#482D21;
+} 
+.t:hover line{
+  stroke:#482D21;
+} 
+.u:hover line{
+  stroke:#482D21;
+} 
+.v:hover line{
+  stroke:#482D21;
+} 
+.w:hover line{
+  stroke:#482D21;
+} 
+.x:hover line{
+  stroke:#482D21;
+} 
+.y:hover line{
+  stroke:#482D21;
+} 
+.z:hover line{
+  stroke:#482D21;
+} 
+.NumberZero:hover line{
+  stroke:#482D21;
+} 
+.NumberOne:hover line{
+  stroke:#482D21;
+} 
+.NumberTwo:hover line{
+  stroke:#482D21;
+} 
+.NumberThree:hover line{
+  stroke:#482D21;
+} 
+.NumberFour:hover line{
+  stroke:#482D21;
+} 
+.NumberFive:hover line{
+  stroke:#482D21;
+} 
+.NumberSix:hover line{
+  stroke:#482D21;
+} 
+.NumberSeven:hover line{
+  stroke:#482D21;
+} 
+.NumberEight:hover line{
+  stroke:#482D21;
+} 
+.NumberNine:hover line{
+  stroke:#482D21;
+} 
+.QuestionMark:hover line{
+  stroke:#482D21;
+} 
+.ExclamationMark:hover line{
+  stroke:#482D21;
 }
 
 /*----------------------------Hexagon Begin-----------------------*/
+
+/*---<<<<<<---Dots-----*/
 .hexagon {
   position: relative;
   width: 10px; 
   height: 5.77px;
-  background-color: orange;
+  background-color: #eeda49;
   margin: 2.89px 0;
 }
 
@@ -419,15 +796,129 @@ line {
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 2.89px solid orange;
+  border-bottom: 2.89px solid #eeda49;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 2.89px solid orange;
+  border-top: 2.89px solid #eeda49;
 }
+/*---Dots-->>>>-------*/
+
+
+/*---<<<<<<---Big Sand Storm-----*/
+.hexagonBigSandstorm {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #eeda49;
+  margin: 50px 0;
+}
+.hexagonBigSandstorm:before,
+.hexagonBigSandstorm:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigSandstorm:before {
+  bottom: 100%;
+  border-bottom: 50px solid #eeda49;
+}
+.hexagonBigSandstorm:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #eeda49;
+}
+/*---Big Sand Storm-->>>>-------*/
+
+
+/*---<<<<<<---Big Gold Tips-----*/
+.hexagonBigGoldTips {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #deb117;
+  margin: 50px 0;
+}
+.hexagonBigGoldTips:before,
+.hexagonBigGoldTips:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigGoldTips:before {
+  bottom: 100%;
+  border-bottom: 50px solid #deb117;
+}
+.hexagonBigGoldTips:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #deb117;
+}
+/*---Big Gold Tips-->>>>-------*/
+
+/*---<<<<<<---Big Parite Gold-----*/
+.hexagonBigPariteGold {
+  position: absolute;
+  width: 173.2px; 
+  height: 100px;
+  background-color: #c87e00;
+  margin: 50px 0;
+}
+.hexagonBigPariteGold:before,
+.hexagonBigPariteGold:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 86.6px solid transparent;
+  border-right: 86.6px solid transparent;
+}
+.hexagonBigPariteGold:before {
+  bottom: 100%;
+  border-bottom: 50px solid #c87e00;
+}
+.hexagonBigPariteGold:after {
+  top: 100%;
+  width: 0;
+  border-top: 50px solid #c87e00;
+}
+/*---Big Parite Gold-->>>>-------*/
+
+
+/*---<<<<<<---Small Parite Gold-----*/
+.hexagonSmallPariteGold {
+  position: relative;
+  width: 86.6px; 
+  height: 50.00px;
+  background-color: #c87e00;
+  margin: 25.00px 0;
+}
+.hexagonSmallPariteGold:before,
+.hexagonSmallPariteGold:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 43.3px solid transparent;
+  border-right: 43.3px solid transparent;
+}
+.hexagonSmallPariteGold:before {
+  bottom: 100%;
+  border-bottom: 25.00px solid #c87e00;
+}
+.hexagonSmallPariteGold:after {
+  top: 100%;
+  width: 0;
+  border-top: 25.00px solid #c87e00;
+}
+/*---Smal Parite Gold-->>>>-------*/
 
 /*----------------------Hexagon End-------------------------------*/
 
+
+/*----------------------GamePage-------------------------------*/
 
