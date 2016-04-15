@@ -1,0 +1,109 @@
+@import url();
+
+body {
+	padding: 0;	
+	margin: 0;
+	font-family: sans-serif;
+
+}
+
+/* Text
+-------------------------------------------------- */
+.text{
+	padding-right: 2.25em;
+	padding-left: 2.25em;
+	padding-top: 1em;
+}
+h1{
+	font-size: 5em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 3em;
+	font-weight: 100;
+}
+
+h1,h2 {
+	color: red;
+}
+
+/* Image
+-------------------------------------------------- */
+.l{
+	width: 100%;
+}
+.mobile-only{
+	display: none;
+}  /*note:newly learned*/
+.s{
+	width: 20%;
+	border:1em solid red;
+}
+.img-grid{
+	text-align: center;/*images are in-line elements, so you can use text-align. it works better than adding a lot of margins*/
+}
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* text */
+	h1, h2 {
+		color: blue;
+	}
+	.mobile-only{
+  		display: block;
+ 	}
+ 	h1{
+		font-size: 4em;
+		font-weight: 900;
+		text-decoration: unset;
+	}
+
+	h2{
+		font-size: 2.5em;
+		font-weight: 100;
+	}
+
+  /* image */
+  .s{
+		width: 40%;
+		border:1em solid blue;
+	}
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  /* text */
+  	h1{
+		font-size: 3em;
+		font-weight: 900;
+		text-decoration:overline;
+	}
+
+	h2{
+		font-size: 1.8em;
+		font-weight: 100;
+	}
+	h1,h2{
+		color:green;
+	}
+  /* image */
+  	.s{
+  		width: 90%;
+  		border:1em solid green;
+  	}
+  	.mobile-only{
+  		display: block;
+  	}
+}
+
+}
+
+
