@@ -1,0 +1,155 @@
+
+/* Global
+=========================================================*/
+
+body {
+	padding: 0;	
+	margin: 0px;
+}
+
+
+/*  Type
+---------------------------------------------------------*/
+
+h1{
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-size: 5em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 1em;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-size: 3em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 1em;
+}
+
+/* Nav Bar
+----------------------------------------------------------*/
+
+.nav {
+	background-color: pink;
+	height: 50px;
+	vertical-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.nav li {
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 1em;
+}
+
+.bannerL{
+	text-align: left;
+	padding-left: 10px;
+}
+.bannerR{
+	float: right;
+	padding-right: 10px;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+
+/* images
+--------------------------------------------------*/
+.AdImg{
+	width: 100%;
+}
+
+
+.row {
+	width: 100%;
+}
+
+.row h2{
+	text-align: center;	
+}
+
+.half {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	/*background: red;*/
+}
+
+
+
+.half img {
+	width: 100%;
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
+}
+
+
+
+
+.ImgGrid{
+	text-align: center;
+}
+
+.ImgGrid img {
+	width: 30%;
+}
+
+.third {
+	width: 30%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.third img{
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
+}
+
+
+
+/* iPad 
+========================================================== */
+@media only screen and (max-width : 800px) {
+
+  /* text */
+	
+
+  /* image */
+	.half {
+		width: 100%;
+	}
+
+
+/* Mobile
+============================================================ */
+
+@media screen and (max-width: 768px) {
+
+  /* text */
+  	
+  /* image */
+  	
+}
+
+
+
